@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cigarettes_butts', 'others']
+
+roboflow:
+  workspace: butt
+  project: yolo-cigarettes-butts
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/butt/yolo-cigarettes-butts/dataset/4
